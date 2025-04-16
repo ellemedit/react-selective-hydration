@@ -28,7 +28,7 @@ export default function Page() {
 
 function Header() {
   return (
-    <header className="p-4 border-b border-gray-500 h-[160px] has-[[[data-hydrated]]]:bg-green-300">
+    <header className="p-4 border-b border-gray-500 h-[160px] has-[[data-hydrated]]:bg-green-300">
       <h1>Header</h1>
       {Array(1000)
         .fill(null)
@@ -58,7 +58,7 @@ function Content() {
 
 function Sidebar() {
   return (
-    <aside className="p-4 border-r border-gray-500 w-[300px] shirnk-0 has-[data-hydrated]:bg-green-300">
+    <aside className="p-4 border-r border-gray-500 w-[300px] shirnk-0 has-[[data-hydrated]]:bg-green-300">
       <div className="grid gap-2">
         <Link href="/with-suspense?a">Home</Link>
         <Link href="/with-suspense?b">About</Link>
